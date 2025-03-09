@@ -1,0 +1,232 @@
+Core Intentions
+To provide a secure platform for couples to strengthen their relationships through AI-powered advice and conflict resolution.
+
+To simulate real-life relationship dynamics (e.g., breakups, monogamy) while respecting user privacy and preferences.
+
+To create a premium, professional experience with intuitive navigation and aesthetic design.
+
+To ensure inclusivity by allowing users to define their gender and relationship type.
+
+App Layout
+1. Onboarding Process
+Purpose: Introduce users to the app, collect basic information, and guide them through setup.
+
+Features:
+
+Welcome Screen: Brief overview of the app's purpose (e.g., "Your AI-powered relationship companion").
+
+Account Creation:
+
+Sign up via email or phone number.
+
+Option to log in if returning.
+
+Profile Setup:
+
+Enter name.
+
+Select gender:
+
+Male
+
+Female
+
+Other
+
+Prefer not to say
+
+Set a profile picture (optional).
+
+Relationship Status Setup:
+
+Single (default) or In a Relationship.
+
+If "In a Relationship," proceed to the Family Tab setup.
+
+2. Home Screen
+Purpose: Central hub for accessing all features.
+
+Design Intentions:
+
+Clean, professional dark-tone UI with premium aesthetics.
+
+Minimalistic layout with quick access to core features.
+
+Features:
+
+Greeting message personalized by AI (e.g., "Hi [Name], how can I help today?").
+
+Quick-access buttons for:
+
+Ask AI: Casual conversations or advice.
+
+Relationship Advisor: Access to therapy-like advice.
+
+Family Tab: Manage partner connection and relationship details.
+
+Conflict Resolution: Mediation feature for couples.
+
+3. Family Tab
+Purpose: Manage partner connections and relationship status.
+
+Features:
+Add Partner Functionality:
+
+Users can add only one partner at a time by sending an invite link or code.
+
+Once the partner accepts, the relationship is established bidirectionally (e.g., David adds Lily as his wife; Lily automatically sees David as her husband).
+
+Relationship Type Selection:
+
+Husband/Wife
+
+Boyfriend/Girlfriend
+
+Partner (for non-binary or undefined roles)
+
+Note: This selection is visible only to the connected couple.
+
+Monogamy Rule Enforcement:
+
+Users cannot add another partner while in an active relationship.
+
+To add a new partner, they must first remove the current one (simulating a breakup).
+
+Breakup Process:
+
+A user can end the relationship via the Family Tab.
+
+Both users are notified of the breakup.
+
+Once ended, both users return to “Single” status and can add new partners.
+
+4. Ask AI
+Purpose: Provide casual conversation and lighthearted interactions with the AI.
+
+Features:
+Casual Chat Mode:
+
+Users can chat with the AI about general topics like hobbies, daily life, or fun trivia.
+
+Example prompts: “Tell me a joke,” “What’s your advice for staying positive?”
+
+Q&A Mode:
+
+Users can ask specific questions about relationships or personal well-being.
+
+Example prompts: “How do I handle stress?” or “What’s a good way to surprise my partner?”
+
+Save Conversations:
+
+Option to bookmark meaningful chats for future reference.
+
+5. Relationship Advisor
+Purpose: Offer expert-level advice on relationships using an AI trained in psychotherapy techniques.
+
+Features:
+Advice Interface:
+
+Users describe their concerns or ask specific questions about their relationship.
+
+Example prompts: “How do I communicate better with my partner?” or “We’ve been arguing a lot lately—what should I do?”
+
+Actionable Suggestions:
+
+The AI provides tailored advice based on user input.
+
+Suggestions may include communication exercises, date ideas, or coping strategies.
+
+Reminders & Follow-Ups:
+
+Users can set reminders for suggested actions (e.g., “Plan a date night this Friday”).
+
+The AI checks in later to see if progress has been made.
+
+6. Conflict Resolution
+Purpose: Mediate conflicts between couples without revealing private information from either party.
+
+Features:
+Separate Communication Channels for Each Partner:
+
+The AI communicates individually with each partner to gather perspectives on conflicts.
+
+Example questions from the AI:
+
+“What do you feel is causing tension?”
+
+“How would you like things to improve?”
+
+AI Analysis of Combined Data (Anonymized):
+
+The AI uses inputs from both partners to identify common pain points without revealing specific details from either side.
+
+Solution Suggestions:
+
+The AI proposes actionable solutions based on combined insights, such as:
+
+Encouraging open communication about specific topics.
+
+Suggesting shared activities to strengthen bonds (e.g., “Try cooking dinner together this weekend”).
+
+Offering guided exercises like active listening techniques.
+
+Progress Tracking:
+
+The app tracks whether suggested solutions are implemented and follows up with both partners individually.
+
+7. Settings & Privacy
+Purpose: Empower users with control over their data and app preferences.
+
+Features:
+Privacy Settings:
+
+End-to-end encryption for all communications and stored data.
+
+Option to delete all personal data permanently from the app servers.
+
+Transparency Statement:
+
+Clear explanation of how data is used by the AI system (e.g., anonymized analysis).
+
+Notification Preferences:
+
+Customize notifications for reminders, updates, or check-ins from the AI.
+
+Account Management:
+
+Edit profile details (name, gender, profile picture).
+
+Change password or delete account entirely.
+
+8. Premium Features (Optional)
+If you plan to monetize the app, consider offering premium features:
+
+Features:
+Advanced Conflict Resolution Tools:
+
+Access more in-depth exercises like guided meditation or journaling prompts.
+
+Customizable Chatbot Personalities/Themes:
+
+Users can choose different tones for the chatbot (e.g., formal therapist vs friendly companion).
+
+Priority Support & Updates:
+
+Faster access to new features and priority customer support.
+
+Notes for Development
+Privacy First Approach
+Your app must prioritize user privacy at every step—this is critical given its sensitive nature as a relationship tool.
+Recommendations include end-to-end encryption for chats and anonymizing data before analysis by the AI system.
+
+AI Model Selection
+Use an advanced natural language processing model (e.g., GPT-based models) fine-tuned on psychotherapy techniques and relationship counseling datasets for accurate advice generation.
+
+UI/UX Design
+Focus on creating an emotionally engaging yet professional interface that users feel comfortable interacting with during sensitive moments.
+
+Legal Compliance
+Ensure compliance with global data protection laws like GDPR (Europe) and CCPA (California). Include clear terms of service and privacy policies explaining how user data is handled.
+
+Testing Phase
+Conduct rigorous beta testing with diverse user groups to refine features based on real feedback before launch.
